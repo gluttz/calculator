@@ -1,0 +1,15 @@
+*{
+    border: 1px solid red;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calcContainer{
+    display: flex;
+    background-color: grey;
+    width: 800px;
+    height: 960px;
+    flex-direction: column;
+}
