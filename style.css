@@ -115,10 +115,6 @@ body{
     font-weight: 800;
 }
 
-#clear{
-    
-}
-
-.container{
-    
+#operatorContainer button{
+    background-color: rgb(151, 151, 151);
 }
