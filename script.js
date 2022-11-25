@@ -43,7 +43,6 @@ function operate(operator, a, b){
         return b;
     }
 }
-console.log(operate('-', '', 3));
 
 buttons.forEach(item => {
     item.addEventListener('click', (e) => {
@@ -81,17 +80,9 @@ function numberInput(btnValue){
         currentValue = btnValue;
         inputField.textContent = currentValue;
         operatorState = false;
-        console.log('storedOperator = ' + storedOperator);
-        console.log('currentValue = ' + currentValue);
-        console.log('totalValue = ' + totalValue);
-        console.log('operatorState = ' + operatorState);
     }else{
         currentValue += btnValue;
         inputField.textContent = currentValue;
-        console.log('storedOperator = ' + storedOperator);
-        console.log('currentValue = ' + currentValue);
-        console.log('totalValue = ' + totalValue);
-        console.log('operatorState = ' + operatorState);
     }
 }
 
@@ -115,10 +106,6 @@ function operatorClicked(btnValue){
     storedOperator = btnValue
     currentValue = '';
     operatorState = true;
-    console.log('storedOperator = ' + storedOperator);
-    console.log('currentValue = ' + currentValue);
-    console.log('totalValue = ' + totalValue);
-    console.log('operatorState = ' + operatorState);
 }
 
 function equals(){
