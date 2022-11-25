@@ -26,7 +26,6 @@ BUTTONS
 15) subtract
 16) multiply
 17) divide
-18) squareRt
-19) remainder
-20) ?parenthesis?
-21) equals
+18) remainder
+19) ?parenthesis?
+20) equals

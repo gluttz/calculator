@@ -1,15 +1,124 @@
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 body{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.calcContainer{
+#calcContainer{
     display: flex;
     background-color: grey;
     width: 800px;
     height: 960px;
     flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 95%;
+    width: 95%;
+    gap: 15px;
+}
+#headerContainer{
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultsContainer{
+    display: flex;
+    height: 96px;
+    justify-content: center;
+    
+    
+}
+
+#result{
+    display: flex;
+    background-color: rgb(211, 206, 206);
+    width: 100%;
+    border-radius: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(59, 59, 59);
+    font-size: 40px;
+    padding: 10px;
+}
+
+#inputContainer{
+    display: flex;
+    height: 96px;
+    justify-content: center;
+}
+
+#input{
+    display: flex;
+    background-color: rgb(211, 206, 206);
+    width: 100%;
+    border-radius: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(59, 59, 59);
+    font-size: 40px;
+    padding: 10px;
+}
+
+#buttonContainer{
+   display: flex;
+   flex: 1;
+   flex-basis: 100%;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+}
+
+#numbersContainer{
+    display: flex;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    height: 95%;
+    
+}
+
+#operatorContainer{
+    display: flex;
+    flex-basis: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    height: 95%;
+}
+
+#header{
+    color: rgb(46, 46, 46);
+    font-size: 40px;
+}
+
+.button{
+    background-color: rgb(92, 91, 91);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 32%; 
+    font-weight: 800;
+}
+
+#clear{
+    
+}
+
+.container{
+    
 }
